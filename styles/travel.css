@@ -13,6 +13,7 @@
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 5px 60px;
 }
 .nav-title{
     display: flex;
@@ -43,4 +44,36 @@ nav li a{
     text-decoration: none;
     color: #424247;
     font-size: 20px;
+}
+.select-type{
+    background-image: url('..//Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: 5px 70px;
+    text-align: center;
+
+}
+.select-one{
+    padding: 100px 50px;
+}
+.select-one h2{
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.select-one p{
+    font-size: 15px;
+    color: #FFFFFF;
+    padding: 0px 200px;
+    margin-top: 5px;
+}
+.select-one button{
+    padding: 10px 35px;
+    color: #1e1e22;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+.select-one .btn-primary{
+    background-color: #FF5400;
+    color: #f8f2f2;
 }
