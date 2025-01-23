@@ -394,7 +394,16 @@ footer p{
     .btn-style{
         padding: 5px;
     }
-    
-    
+    .popular-one{
+        flex-direction: column;
+        padding: 5px;
+    }
+    .popular-two{
+        /* height: 80%; */
+        flex-direction: row;
+        padding: 20px;  
+    }
+    .img-main{
+        width: 100%;
+    }
 }
-
