@@ -48,6 +48,9 @@ nav li a{
 .select-type{
     background-image: url('..//Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
     height: 500px;
     margin: 5px 70px;
     text-align: center;
@@ -66,14 +69,332 @@ nav li a{
     padding: 0px 200px;
     margin-top: 5px;
 }
-.select-one button{
+.button-btn{
+    padding: 15px 50px;
+    gap: 20px;
+    background-color: #ffffff50;
+    border: none;
+    border-radius: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+   
+}
+
+.btn-style{
     padding: 10px 35px;
     color: #1e1e22;
     background-color: #FFFFFF;
     border: none;
+   border-radius: 5px;
+}
+.btn-primary{
+    padding: 10px 35px;
+    color: #f8f2f2;
+    background-color: #FF5400;
+    border: none;
     border-radius: 5px;
 }
-.select-one .btn-primary{
+/* main section style */
+.popular-one{
+    display: flex;
+    margin: 30px 60px;
+}
+.popular-two{
+    padding: 0px 100px;
+    
+}
+.popular-two h3{
+    font-size: 35px;
+    color: #424247;
+}
+.popular-two p {
+    font-size: 15px;
+    color: #13131877;
+}
+.popular-two li{
+    font-size: 15px;
+    color: #13131877;
+}
+/* imgage secton */
+
+.images-one{
+    margin: 20px 70px;
+   
+}
+.images-one h3{
+    font-size: 30px;
+    text-align: center;
+    color: #131318;
+}
+.images-one p{
+    font-size: 15px;
+    color: #13131893;
+    text-align: center;
+}
+
+.WhyChoose{
+    text-align: center;
+}
+.WhyChoose h3{
+    font-size: 30px;
+    color: #131318;
+}
+.WhyChoose{
+    font-size: 15px;
+    color: #424247;
+}
+.img-the{
+    display: flex;
+    padding: 10px 70px;
+    gap: 40px;
+}
+.home-img{
+    padding: 20px 30px;
+    background-color: rgba(255, 192, 203, 0.144);
+    border-radius: 10px;
+}
+.home-img h4{
+    font-size: 20px;
+    color: #131318;
+}
+.home-img p{
+    font-size: 15px;
+    color: #424247;
+}
+.location-img{
+    padding: 20px 30px;
+    background-color: rgba(0, 255, 255, 0.13);
+    border-radius: 10px;
+}
+.location-img h4{
+    font-size: 20px;
+    color: #131318;
+}
+.location-img p{
+    font-size: 15px;
+    color: #424247;
+}
+.peresnt-img{
+    margin: 0px 350px;
+    background-color: rgba(250, 235, 215, 0.356);
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.peresnt-img h4{
+    font-size: 25px;
+    color: #131318;
+}
+.peresnt-img p{
+    font-size: 15px;
+    color: #424247;
+}
+/* section style 3 */
+.deals-deals{
+    text-align: center;
+}
+.deals-deals h4{
+    font-size: 35px;
+    color: #131318;
+}
+.deals-deals p{
+    font-size: 15px;
+    color: #424247;
+}
+
+.nav-style{
+    background-image: url('..//Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.nav2-style{
+    background-image: url('..//Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.satorini2-one{
+    height: 300px;
+    width: 400px;
+    padding: 50px 50px 10px 30px;
+    border-radius: 10px;
+    background-color: #ffffffab;
+    background-size: 10%;
+    margin: 50px 600px 600px 50px;
+    
+}
+.satorini2-one h5{
+    font-size: 15px;
+    color: #FF5400;
+}
+.satorini-one{
+    height: 300px;
+    width: 400px;
+    padding: 50px 50px 10px 30px;
+    border-radius: 10px;
+    background-color: #ffffffab;
+    background-size: 10%;
+    margin: 50px 100px 500px 600px;
+    
+}
+.satorini-one h4 {
+    /* font-size: 20px; */
+    color: #131318;
+}
+.primary-two{
+    font-size: 15px;
+    color: #424247;
+}
+.satorini-one h5{
+    font-size: 15px;
+    color: #FF5400;
+}
+.but-ton-two{
+    text-align: center;
+    margin-top: 50px;
+}
+.btn-primary{
+    padding: 10px 35px;
+    color: #f8f2f2;
     background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+}
+
+.Newsletter-one{
+    display: flex;
+    gap: 50px;
+    margin: 10px 100px;
+}
+.Newsletter2-one{
+    padding: 40px 20px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+}
+.Newsletter2-one h4{
+    font-size: 25px;
+    color: #131318;
+}
+.Newsletter2-one p{
+    font-size: 15px;
+    color: #424247;
+}
+.boder{
+    border: 1px solid #4242472f;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    /* display: block; */
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 18px 0px;
+    color: #757575;
+    border-radius: 5px;
+    background: #615f5f23;
+    border: 0;
+    width: 100%;
+}
+.btn2-primary{
+    padding: 10px 180px;
+    color: #f8f2f2;
+    background-color: #FF5400;
+    border: none;
+    border-radius: 5px;
+}
+.feature-img{
+    height: 5px;
+}
+.ten-years-badge{
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    width: 242px;
+    left: 400px;
+    padding: 5px 0px;
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    rotate: -45deg;
+
+}
+.ten-years-badge h2{
+    font-size: 20px;
     color: #f8f2f2;
 }
+.ten-years-badge p{
+    font-size: 15px;
+    color: #f8f2f2;
+    
+}
+/* footer section  */
+
+footer{
+    background-color: #4242471e;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer p{
+    font-size: 15px;
+    color: #424247;
+    /* margin: 0px 0px; */
+}
+.nav-title2{
+    margin: 10px 520px;
+    display: flex;
+    font-size: 35px;
+    color: #131318;
+    gap: 10px;
+}
+.ipsum-one{
+    padding: 10px 100px;
+}
+.icon-img2{
+    margin-top: 5px;
+}
+.rights-all{
+    border: 1px solid #42424770;
+    margin: 5px 100px;
+    /* color: #424247; */
+}
+
+.hide{
+    display: none;
+}
+    
+
+@media screen and (max-width: 576px) {
+    
+    header{
+        padding: 15px;
+        
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    .select-type{
+        width: 100%;
+        height: 100%;
+        position: static;
+        margin-left: 10px;
+    }
+    .select-one{
+        padding: 20px;
+    }
+    .select-one p{
+        padding: 10px;
+    }
+    .button-btn{
+        display: grid;
+        flex-direction: column;
+        width: 90%;
+        height: 110%;
+        padding: 30px;
+        margin-left: 6px;
+    }
+    .btn-style{
+        padding: 5px;
+    }
+    
+    
+}
+
