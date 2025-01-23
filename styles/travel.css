@@ -430,4 +430,12 @@ footer p{
     .rectangle-10{
         width: 110%;
     }
+    .img-the{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .peresnt-img{
+        padding: 20px;
+        margin: 20px;
+    }
 }
